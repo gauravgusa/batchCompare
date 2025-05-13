@@ -1,0 +1,85 @@
+
+    <html>
+    <head>
+    <title>EDI Comparison Final Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #4CAF50; color: white; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+        h1, h2 { color: #4CAF50; }
+        .summary { margin-bottom: 20px; }
+    </style>
+    </head>
+    <body>
+    <h1>EDI Comparison Final Report</h1>
+    <p class="summary"><b>Generated:</b> 2025-05-12 16:58</p>
+    <p class="summary"><b>Total Comparisons:</b> 3</p>
+    
+    <table>
+        <tr>
+            <th>File 1</th>
+            <th>File 2</th>
+            <th>ISA Sender Qualifier</th>
+            <th>ISA Sender ID</th>
+            <th>ISA Receiver Qualifier</th>
+            <th>ISA Receiver ID</th>
+            <th>GS01</th>
+            <th>GS02</th>
+            <th>GS03</th>
+            <th>ISA Segment Match</th>
+            <th>GS Segment Match</th>
+            <th>Masked Payload Match</th>
+        </tr>
+        
+        <tr>
+            <td>edi1_uuid1.txt</td>
+            <td>edi1bla_uuid1.txt</td>
+            <td>ZZ</td>
+            <td>SENDERID</td>
+            <td>ZZ</td>
+            <td>RECEIVERID</td>
+            <td>PO</td>
+            <td>SENDERID</td>
+            <td>RECEIVERID</td>
+            <td class='pass'>**PASS**</td>
+            <td class='pass'>**PASS**</td>
+            <td class='fail'>**FAIL**</td>
+        </tr>
+        
+        <tr>
+            <td>edi2_uuid2.txt</td>
+            <td>edi2bla_uuid2.txt</td>
+            <td>ZZ</td>
+            <td>SENDERID</td>
+            <td>ZZ</td>
+            <td>RECEIVERID</td>
+            <td>PO</td>
+            <td>SENDERID</td>
+            <td>RECEIVERID</td>
+            <td class='pass'>**PASS**</td>
+            <td class='pass'>**PASS**</td>
+            <td class='fail'>**FAIL**</td>
+        </tr>
+        
+        <tr>
+            <td>edi3_uuid3.txt</td>
+            <td>edi3bla_uuid3.txt</td>
+            <td>ZZ</td>
+            <td>SENDERID</td>
+            <td>ZZ</td>
+            <td>RECEIVERID</td>
+            <td>PO</td>
+            <td>SENDERID</td>
+            <td>RECEIVERID</td>
+            <td class='pass'>**PASS**</td>
+            <td class='pass'>**PASS**</td>
+            <td class='fail'>**FAIL**</td>
+        </tr>
+        
+    </table>
+    </body>
+    </html>
+    
